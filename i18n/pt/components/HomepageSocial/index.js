@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
-import styles from "./styles.module.css";
+//import styles from "./styles.module.css";
+import styles from "@site/src/components/HomepageSocial/styles.module.css";
 
 export const HomepageSocial = () => {
   return (
@@ -42,10 +43,10 @@ export const HomepageSocial = () => {
             </a>
           </div>
           <div>
-            Chat with the community on our{" "}
-            <a href="https://discord.gg/bxerKnc">Discord channel</a> and{" "}
-            <a href="https://www.reddit.com/r/gbstudio">Reddit</a>. You can
-            support development at{" "}
+            Converse com a comunidade em nosso{" "}
+            <a href="https://discord.gg/bxerKnc">Discord</a> e{" "}
+            <a href="https://www.reddit.com/r/gbstudio">Reddit</a>. Você pode
+            apoiar o desenvolvimento no{" "}
             <a href="https://www.patreon.com/gbstudiodev">Patreon</a>.
           </div>
         </div>

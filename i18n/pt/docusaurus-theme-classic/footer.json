@@ -1,0 +1,20 @@
+{
+  "link.title.Learn": {
+    "message": "Aprenda"
+  },
+  "link.item.label.Introduction": {
+    "message": "Introdução"
+  },
+  "link.item.label.Installation": {
+    "message": "Instalação"
+  },
+  "link.item.label.Download": {
+    "message": "Itch"
+  },
+  "link.title.Community": {
+    "message": "Comunidade"
+  },
+  "link.title.Press": {
+    "message": "Imprensa"
+  }
+}

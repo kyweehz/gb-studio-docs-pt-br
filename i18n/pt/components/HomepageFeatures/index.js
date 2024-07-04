@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
-import styles from "./styles.module.css";
+//import styles from "./styles.module.css";
+import styles from "@site/src/components/HomepageFeatures/styles.module.css";
 import Lightbox from "yet-another-react-lightbox";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/styles.css";
@@ -8,24 +9,24 @@ import useIsBrowser from "@docusaurus/useIsBrowser";
 
 const FeatureList = [
   {
-    title: "Easy to Use",
+    title: "Fácil de Usar",
     macImg: "/img/home/screenshot_mac_1_v4.png",
     winImg: "/img/home/screenshot_win_1_v4.png",
     description: (
       <>
         <p>
-          <strong>Drag and drop</strong> game creator with simple, no progamming
-          knowledge required, <strong>visual scripting</strong>.
+          Criador de jogos <strong>drag and drop</strong> com <strong>visual scripting</strong> simples,
+          que não demanda saber programar.
         </p>
         <p>
-          If your game starts to get complex there's even a built in{" "}
-          <strong>debugger</strong>.
+          Se o seu jogo começar a ficar complexo, há até mesmo um{" "}
+          <strong>debugger</strong> integrado.
         </p>
       </>
     ),
   },
   {
-    title: "Multiple Game Types",
+    title: "Múltiplos Tipos de Jogos",
     macImg: "/img/home/screenshot_mac_2_v4.png",
     winImg: "/img/home/screenshot_win_2_v4.png",
     description: (
@@ -42,7 +43,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Write Music",
+    title: "Crie Músicas",
     macImg: "/img/home/screenshot_mac_3_v4.png",
     winImg: "/img/home/screenshot_win_3_v4.png",
     description: (

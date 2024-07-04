@@ -3,9 +3,12 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
-import { GB3D } from "../components/HomepageHero/GB3D";
-import styles from "./index.module.css";
+//import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import HomepageFeatures from "../components/HomepageFeatures";
+//import { GB3D } from "../components/HomepageHero/GB3D";
+import { GB3D } from "@site/src/components/HomepageHero/GB3D";
+//import styles from "./index.module.css";
+import styles from "@site/src/pages/index.module.css";
 import { HomepageSocial } from "../components/HomepageSocial";
 import { useColorMode } from "@docusaurus/theme-common";
 import HomepageGBSCentral from "../components/HomepageGBSCentral";
@@ -21,17 +24,17 @@ function HomepageHeader() {
         <div className={clsx(styles.heroContent)}>
           <div className={clsx(styles.heroLeft)}>
             <p className="hero__subtitle">
-              A <strong>quick</strong> and <strong>easy</strong> to use{" "}
-              <strong>drag and drop</strong> retro <strong>game creator</strong>{" "}
-              for your favourite handheld video game system.
+              Um <strong>criador de jogos</strong> retrô <strong>drag and drop</strong>,{" "}
+              <strong>rápido</strong> e <strong>fácil</strong> de usar,{" "}
+              para o seu videogame portátil favorito.
             </p>
-            <p>Available on Windows, Mac and Linux.</p>
+            <p>Disponível para Windows, Mac e Linux.</p>
             <div className={styles.buttons}>
               <Link
                 className="button button--secondary button--lg"
                 to="https://chrismaltby.itch.io/gb-studio"
               >
-                Download on Itch.io
+                Baixe no Itch.io
               </Link>
             </div>
           </div>

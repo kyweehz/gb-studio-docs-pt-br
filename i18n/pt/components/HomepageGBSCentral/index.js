@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
-import styles from "./styles.module.css";
+//import styles from "./styles.module.css";
+import styles from "@site/src/components/HomepageGBSCentral/styles.module.css";
 
 export default function HomepageGBSCentral() {
   return (
@@ -12,7 +13,7 @@ export default function HomepageGBSCentral() {
               <h3>
                 Tutorials, Reviews and
                 <br />
-                All Things <span className="no-wrap">GB Studio</span>!
+                TESTAll Things <span className="no-wrap">GB Studio</span>!
               </h3>
               <a className={styles.logo} href="https://gbstudiocentral.com/">
                 <img

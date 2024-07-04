@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "./styles.module.css";
+//import styles from "./styles.module.css";
+import styles from "@site/src/components/HomepageItch/styles.module.css";
 
 export default function HomepageItch() {
   return (
@@ -8,7 +9,7 @@ export default function HomepageItch() {
         <div className="row">
           <div className="col col--6">
             <h3>
-              Over 1000 Games Made With{" "}
+              TESTOver 1000 Games Made With{" "}
               <span className="no-wrap">GB Studio</span>
             </h3>
             <p>
